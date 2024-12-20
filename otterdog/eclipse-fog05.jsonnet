@@ -1,6 +1,6 @@
 local orgs = import 'vendor/otterdog-defaults/otterdog-defaults.libsonnet';
 
-orgs.newOrg('eclipse-fog05') {
+orgs.newOrg('iot.fog05', 'eclipse-fog05') {
   settings+: {
     web_commit_signoff_required: false,
     workflows+: {
